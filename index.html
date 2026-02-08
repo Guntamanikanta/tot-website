@@ -1,11 +1,104 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>TOT – Tales of Tomorrow</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TOT – Tales of Tomorrow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-</body>
 
+<!-- AGE VERIFICATION -->
+<div id="age-gate">
+  <div class="age-box">
+    <h2>Age Verification</h2>
+    <p>You must be 21 years or older to enter this website.</p>
+    <button onclick="enterSite()">I am 21+</button>
+    <button class="exit">Exit</button>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header>
+  <div class="logo">TOT</div>
+  <nav>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#responsible">Responsibility</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Tales of Tomorrow</h1>
+  <p>A luxury showcase of fine spirits and timeless stories</p>
+</section>
+
+<!-- COLLECTION -->
+<section id="collection" class="section">
+  <h2>Our Collection</h2>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6" />
+      <h3>Premium Whisky</h3>
+      <p>Oak, vanilla, smooth finish</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1587223962930-cb7f31384c19" />
+      <h3>Artisan Gin</h3>
+      <p>Botanical & refined taste</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1622637793195-12f19c5aafdb" />
+      <h3>Classic Rum</h3>
+      <p>Rich, warm, traditional</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1582575283543-0c65c57b0d8d" />
+      <h3>Signature Vodka</h3>
+      <p>Pure, clean, modern</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section dark">
+  <h2>About TOT</h2>
+  <p>
+    TOT – Tales of Tomorrow is a luxury liquor showcase celebrating craftsmanship,
+    heritage, and the art of fine spirits. We present curated collections for
+    connoisseurs and enthusiasts.
+  </p>
+</section>
+
+<!-- RESPONSIBILITY -->
+<section id="responsible" class="section">
+  <h2>Responsible Drinking</h2>
+  <p>
+    This website is a product showcase only. No alcohol is sold online.
+    Consumption of alcohol is injurious to health.
+    Please follow all applicable Indian laws and regulations.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <h2>Contact</h2>
+  <p>Email: contact@talesoftomorrow.in</p>
+  <p>Location: India</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 TOT – Tales of Tomorrow
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
