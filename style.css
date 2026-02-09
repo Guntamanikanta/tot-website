@@ -35,22 +35,24 @@ nav a {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
-  url("https://images.unsplash.com/photo-1510626176961-4b57d4fbad03") center/cover;
+    url("https://images.unsplash.com/photo-1510626176961-4b57d4fbad03") center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start; /* ✅ ADD THIS */
   padding-left: 60px;
 }
+
 .primary-btn {
-  display: inline-block;          /* KEY: stops full width */
-  padding: 10px 22px;             /* controls height & width */
+  display: inline-block;
+  padding: 10px 24px;
   background: #c9a24d;
   color: #000;
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;                /* controls text size */
+  font-size: 15px;
   border-radius: 6px;
-  width: auto;                    /* important */
+  width: auto;          /* ✅ keep it natural */
 }
 
 .hero h1 {
