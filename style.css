@@ -42,14 +42,15 @@ nav a {
   padding-left: 60px;
 }
 .primary-btn {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 12px 24px;
+  display: inline-block;          /* KEY: stops full width */
+  padding: 10px 22px;             /* controls height & width */
   background: #c9a24d;
   color: #000;
   text-decoration: none;
   font-weight: 500;
+  font-size: 15px;                /* controls text size */
   border-radius: 6px;
+  width: auto;                    /* important */
 }
 
 .hero h1 {
